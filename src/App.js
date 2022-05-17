@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio.js'
 import Resume from './components/Resume.js'
 
 const App = () => {
-  const [currentTab, setCurrentTab] = useState('Portfolio')
+  const [currentTab, setCurrentTab] = useState('About Me')
 
   const handleTabChange = tab => {
     setCurrentTab(tab)
