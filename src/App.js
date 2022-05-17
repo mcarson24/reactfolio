@@ -16,16 +16,16 @@ const App = () => {
     if (currentTab === 'About Me') return <About />
     if (currentTab === 'Contact') return <Contact />
     if (currentTab === 'Portfolio') return <Portfolio />
-    if (currentTab === 'Resume') return <Resume />
+    return <Resume />
   }
   return (
 
-    <div className="App">
-      <Navigation currentTab={currentTab} handleTabChange={handleTabChange}/>
-      <main>
+    <>
+      <Navigation currentTab={currentTab}handleTabChange={handleTabChange}/>
+      <main className="container mx-auto">
         { renderPage() }
       </main>
-    </div>
+    </>
   )
 }
 
