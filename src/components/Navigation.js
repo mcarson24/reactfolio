@@ -1,32 +1,30 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-const Navigation = () => {
-  const [currentTab, setCurrentTab] = useState('About Me')
-
+const Navigation = ({currentTab, handleTabChange}) => {
   return (
     <nav className="mt-6 h-12">
       <ul className="flex justify-end h-full">
         <li className={currentTab === 'About Me' ? 'mr-8 text-purple-600 font-bold border-b-4 border-purple-600' : 'mr-8'}>
           <a href="#about"
-             onClick={() => setCurrentTab('About Me')}>
+             onClick={() => handleTabChange('About Me')}>
             About Me
           </a>
         </li>
         <li className={currentTab === 'Portfolio' ? 'mr-8 text-purple-600 font-bold border-b-4 border-purple-600' : 'mr-8'}>
           <a href="#portfolio"
-             onClick={() => setCurrentTab('Portfolio')}>
+             onClick={() => handleTabChange('Portfolio')}>
             Portfolio
           </a>
         </li>
         <li className={currentTab === 'Contact' ? 'mr-8 text-purple-600 font-bold border-b-4 border-purple-600' : 'mr-8'}>
           <a href="#contact"
-             onClick={() => setCurrentTab('Contact')}>
+             onClick={() => handleTabChange('Contact')}>
             Contact
           </a>
         </li>
         <li className={currentTab === 'Resume' ? 'mr-8 text-purple-600 font-bold border-b-4 border-purple-600' : 'mr-8'}>
           <a href="#resume"
-             onClick={() => setCurrentTab('Resume')}>
+             onClick={() => handleTabChange('Resume')}>
             Resume
           </a>
         </li>
