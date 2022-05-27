@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Indego bike-share map",
+    "description": "A simple and easy-to-use website that displays bike share and weather information for people in Philadelphia using Indego and Open Weather Map APIs.",
+    "technologies": [
+      "JavaScript",
+      "Vue.js",
+      "HTML",
+      "CSS"
+    ],
+    "image": "/images/indego_bike_share.png",
+    "link": "https://frontend.punkavechallenge.xyz/",
+    "repository": "https://github.com/mcarson24/frontend-challenge"
+  },
+  {
+    "name": "TekTalk",
+    "description": "A small tech blog CMS written using Express.js, Sequelize, handlebars.js and more.",
+    "technologies": [
+      "JavaScript",
+      "Express.js",
+      "SQL",
+      "HTML",
+      "CSS"
+    ],
+    "image": "/images/tek_talk.png",
+    "link": "https://floating-mesa-54354.herokuapp.com/",
+    "repository": "https://github.com/mcarson24/tektalk"
+  }, {
+    "name": "AutoAuction",
+    "description": "A simple application to faciltate car sales/auctions. Utilizing Express.js and Node.js",
+    "technologies": [
+      "JavaScript",
+      "Express.js",
+      "MySQL",
+      "HTML",
+      "CSS"
+    ],
+    "image": "/images/auto_auction.png",
+    "link": "https://nameless-gorge-63514.herokuapp.com/",
+    "repository": "https://github.com/mcarson24/autoAuction"
+  }, {
+    "name": "LOLem Inpsum",
+    "description": " A simple and more enjoyable lorem ipsum generator created using JavaScript. ",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Vue.js"
+    ],
+    "image": "/images/lolem_ipsum.png",
+    "link": "https://lolemipsum.herokuapp.com/",
+    "repository": "https://github.com/mcarson24/lolemipsum"
+  }, 
+  {
+    "name": "Note to Self",
+    "description": "A simple application for taking and persisiting notes using Express.js.",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "jQuery"
+    ],
+    "image": "/images/note_to_self.png",
+    "link": "https://aqueous-hamlet-19778.herokuapp.com/notes",
+    "repository": "https://github.com/mcarson24/note-taker"
+  },
+  {
+    "name": "MyTeam",
+    "description": "A simple and easy-to-use content management system for a company's employees",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "MySQL"
+    ],
+    "image": "/images/my_team.png",
+    "link": "https://www.youtube.com/watch?v=IXMW6oVkn6s",
+    "repository": "https://github.com/mcarson24/myTeam"
+  }
+]
